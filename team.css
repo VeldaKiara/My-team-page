@@ -28,9 +28,10 @@ html{
 .heading .content2{
 	font-family: 'Poppins', sans-serif;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	flex-wrap: wrap;
 	width: 50%;
+	float: right;
 	
 	
 }
@@ -41,12 +42,7 @@ html{
 	line-height: 27px;
     color: #000000;
 	text-transform: uppercase;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	float: right;
-	flex-direction: row
-}
+	}
 .heading .content2 p{
 	font-family: Poppins;
 	font-style: normal;
@@ -54,7 +50,7 @@ html{
 	font-size: 18px;
 	line-height: 27px;
 	float: right;
-	flex-direction: row
+	flex-direction: column;
 }
 .pictures img{
 	position: relative;
