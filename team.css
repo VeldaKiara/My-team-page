@@ -77,7 +77,7 @@ html{
   display: flex;
   margin-bottom: 15px;
 }
-.pictures .photo:nth-child(2n) {
+.pictures .photo :nth-child(2n) {
   top: 100px;
 }
 .pictures .photo img {
@@ -85,7 +85,7 @@ html{
   float: left;
   max-width: 100%;
   transform: matrix(-1, 0, 0, 1, 0, 0);
-  
+
 }
 .pictures .photo p{
   margin-left: 10px;
@@ -95,10 +95,16 @@ html{
   text-transform: uppercase;
   writing-mode: vertical-rl;
 }
-.pictures .photo .name{
-  clear: both;
+.pictures .photo .name p{
   font-weight: 600;
   font-size: 18px;
   line-height: 27px;
+  margin-top: -5px;
+  text-align: left;
+  font-size: 14px;
+  writing-mode: horizontal-tb;
+  padding-left: -2em;
+  padding-bottom: 8em;
 }
+
 
