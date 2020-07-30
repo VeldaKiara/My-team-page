@@ -90,7 +90,7 @@ html{
     line-height: 16px;
     writing-mode: vertical-rl;
     position: absolute;
-    transform: translate(0em, -28em);
+    transform: translate(-1.9em, -26em);
     }
 .pictures .photo .name p{
   font-weight: 600;
@@ -123,6 +123,9 @@ footer{
     .pictures{
     	display: inline-grid;
         grid-template-columns: auto auto;
+        
+
+
     }
     .pictures .photo .pos{
     	width: -70%;
@@ -137,6 +140,7 @@ footer{
 	     height: -90px;
     }
     footer{
+    	justify-content: center;
     	width: 50%;
     }
 
