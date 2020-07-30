@@ -60,5 +60,27 @@ html{
 	margin: -0.5em;
 	margin-left: 0.17em;
 }
+.main{
+    width: 100%;
+    max-width: 90%;
+    margin: auto;
+}
+.pictures {
+   /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;*/
+  display: grid;
+  grid-area: auto;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.pictures .photo img{
+	width:55%;
+	padding-left: 30%;
+}
+.pictures .photo .row2{
+	padding-top: 5em;
+}
 
 
