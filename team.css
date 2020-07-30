@@ -64,11 +64,9 @@ html{
     width: 100%;
     max-width: 90%;
     margin: auto;
+
 }
 .pictures {
-   /* display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;*/
   display: grid;
   grid-area: auto;
   grid-template-columns: repeat(3, 1fr);
@@ -81,6 +79,34 @@ html{
 }
 .pictures .photo .row2{
 	padding-top: 5em;
+}
+.pictures .photo p{
+	font-family: "PT Serif", serif;
+	padding-left: 30%;
+	}
+.pictures .photo .pos{
+	text-transform: uppercase;
+	font-size: 12px;
+    line-height: 16px;
+    writing-mode: vertical-rl;
+    position: absolute;
+    transform: translate(0em, -28em);
+    /*top:15px;
+    right: ;*/
+	 
+
+}
+.pictures .photo .name p{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  margin-top: -5px;
+  text-align: left;
+  font-size: 14px;
+  writing-mode: horizontal-tb;
+  
+
+
 }
 
 
