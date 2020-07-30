@@ -101,11 +101,47 @@ html{
   font-size: 14px;
   writing-mode: horizontal-tb;
   }
-  footer{
+footer{
      transform: translate(50%, 50%);
      font-weight: bold;
      font-color: black; 
      font-family: "PT Serif", serif;
-  }
+}
+@media (max-width: 480px){
+	html{
+		width: 100%;
+	}
+	.heading .content {
+        width: 50%;
+        padding-left: 3em;
+    }
+    .heading .content2 {
+    	padding-top: 15%;
+    	padding-left: 8em;
+    	
+    }
+    .pictures{
+    	display: inline-grid;
+        grid-template-columns: auto auto;
+    }
+    .pictures .photo .pos{
+    	width: -70%;
+    	position: grid;
+    	display: inline-grid;
+    	grid-template-columns: auto auto;
+    	transform: translate(-9em, 0em);
+
+    }
+    .pictures .photo .row2{
+	     margin-top: -5em;
+	     height: -90px;
+    }
+    footer{
+    	width: 50%;
+    }
+
+    
+}
+
 
 
