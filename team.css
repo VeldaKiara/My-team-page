@@ -91,11 +91,7 @@ html{
     writing-mode: vertical-rl;
     position: absolute;
     transform: translate(0em, -28em);
-    /*top:15px;
-    right: ;*/
-	 
-
-}
+    }
 .pictures .photo .name p{
   font-weight: 600;
   font-size: 18px;
@@ -104,9 +100,12 @@ html{
   text-align: left;
   font-size: 14px;
   writing-mode: horizontal-tb;
-  
-
-
-}
+  }
+  footer{
+     transform: translate(50%, 50%);
+     font-weight: bold;
+     font-color: black; 
+     font-family: "PT Serif", serif;
+  }
 
 
