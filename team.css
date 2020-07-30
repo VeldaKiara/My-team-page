@@ -60,51 +60,5 @@ html{
 	margin: -0.5em;
 	margin-left: 0.17em;
 }
-.main{
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(1, minmax(300px, 1fr));
-  grid-gap: 50px;
-  margin-bottom: 200px;
-}
-.pictures{
-  position: relative;
-  display: flex;
-  flex-direction: column;
-}
-.pictures .photo {
-  flex: 1;
-  display: flex;
-  margin-bottom: 15px;
-}
-.pictures .photo :nth-child(2n) {
-  top: 100px;
-}
-.pictures .photo img {
-  object-fit: cover;
-  float: left;
-  max-width: 100%;
-  transform: matrix(-1, 0, 0, 1, 0, 0);
-
-}
-.pictures .photo p{
-  margin-left: 10px;
-  font-family: "PT Serif", serif;
-  font-size: 12px;
-  line-height: 16px;
-  text-transform: uppercase;
-  writing-mode: vertical-rl;
-}
-.pictures .photo .name p{
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 27px;
-  margin-top: -5px;
-  text-align: left;
-  font-size: 14px;
-  writing-mode: horizontal-tb;
-  padding-left: -2em;
-  padding-bottom: 8em;
-}
 
 
