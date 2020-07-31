@@ -90,7 +90,7 @@ html{
     line-height: 16px;
     writing-mode: vertical-rl;
     position: absolute;
-    transform: translate(-1.9em, -26em);
+    transform: translate(-0.5em, -28.5em);
     }
 .pictures .photo .name p{
   font-weight: 600;
@@ -104,7 +104,7 @@ html{
 footer{
      transform: translate(50%, 50%);
      font-weight: bold;
-     font-color: black; 
+     color: black; 
      font-family: "PT Serif", serif;
 }
 @media (max-width: 480px){
